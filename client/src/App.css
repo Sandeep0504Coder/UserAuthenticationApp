@@ -1,0 +1,333 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300;400;500;600;700&family=Piazzolla:wght@200;300;400;900&family=Urbanist:wght@200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+/*home page styling*/
+.home-page{
+  height:92.4vh;
+  background:linear-gradient(to right, rgb(248, 246, 251) 50%, white 50%);
+}
+.home-div p{
+  text-align: center;
+  padding-top: 40vh;
+  color: blueviolet;
+  font-weight: 700;
+}
+.home-div div {
+  text-align: center;
+  font-weight: 900;
+}
+.home-div div i{
+  color: #28c6e6;
+}
+
+
+/*signin page styling*/
+.signin-content{
+  background-color:#fbfbfb;
+}
+.signin-image img {
+  margin-top:10vh;
+  max-width: 30vw;
+  min-width: 20vw;
+  margin-bottom: 2vh;
+}
+.sign-in-form-input{
+  background-color: #fbfbfb;
+  font-family: sans-serif;
+  margin-left: 8px;
+  padding:8px;
+  width: 30vw;
+  max-width: 27vw;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  border-bottom: 2px solid black;
+}
+
+.signin-form .form-button input{
+  border: none;
+  border-radius: 5px;
+  background-color:rgb(23, 199, 243);
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  width:150px;
+  height: 40px;
+}
+.signin-form .form-button input:hover{
+  box-shadow: 5px 5px 5px -1px rgb(155, 242, 155);
+  background-color: rgb(19, 201, 19);
+  color: white;
+  
+}
+
+/*signup page styling*/
+.signupImg {
+  margin-top:10vh;
+  max-width: 30vw;
+  min-width: 20vw;
+  margin-bottom: 2vh;
+}
+.signupForm input{
+  font-family: sans-serif;
+}
+.signupForm button{
+  border: none;
+  border-radius: 5px;
+  background-color:rgb(23, 199, 243);
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  width:150px;
+
+}
+
+.signupForm button:hover{
+  box-shadow: 5px 5px 5px -1px rgb(155, 242, 155);
+  background-color: rgb(19, 201, 19);
+  color: white;
+  
+}
+.signup-image-link{
+  text-decoration: none;
+  text-align: center;
+  color: black;
+  margin-left:7vw;
+  
+  font-weight: 700;
+}
+.signupText{
+  font-weight: 700;
+}
+.signupForm input{
+  margin-left: 8px;
+  padding:8px;
+  width: 30vw;
+  max-width: 27vw;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  border-bottom: 2px solid black;
+}
+/*About page styling*/
+.profile-img img{
+  height:250px;
+  object-position:0 20px;
+  clip-path: circle();
+
+}
+.profile-work{
+  color:rgba(63, 62, 62, 0.699);
+  font-weight: 600;
+}
+.profile-work a{
+  text-decoration: none;
+  color:rgba(39, 38, 38, 0.699);
+}
+#myTabContent p{
+  color: #189cf0;
+}
+.profile-edit-btn{
+  border: none;
+  border-radius: 5px;
+  background-color:rgb(253, 249, 249);
+  color:rgba(63, 62, 62, 0.699);
+  text-align: center;
+  font-size: 15px;
+  font-weight: 600;
+  width:100px;
+  height: 40px;
+}
+.profile-head h6{
+  color: #189cf0;
+}
+.pofile-rating{
+  color:rgba(63, 62, 62, 0.699);
+  font-size: small;
+  font-weight: 600;
+}
+.pofile-rating span{
+  font-weight: 700;
+  font-size: large;
+  color:#000;
+}
+@media only screen and (max-width:992px){
+  
+  .profile-tab{
+    font-size:small;
+  }
+}
+@media only screen and (max-width:767px){
+  .profile-img img{
+    margin-left: 18vw;
+  
+  }
+  .profile-head h5,h6,p{
+    text-align: center;
+  }
+  #profile-edit-btn{
+    height:120px;
+    
+  }
+  #profile-head{
+    height: 120px;
+  }
+  .profile-edit-btn{
+    margin-left: 55vw;
+
+  }
+  .profile-work {
+    
+    text-align: center;
+  }
+  .profile-tab{
+    margin-top:5vh;
+    text-align: center;
+  }
+  #profile p{
+    text-align: center;
+    width:70vw;
+    
+
+  }
+  
+}
+
+/*Contact page styling*/
+
+.contact_info_item{
+  width: 500px;
+}
+.contact_info_item img{
+  margin-top: 8px;
+  max-height: 30px;
+}
+.contact_info_content{
+  margin-left: 15px;
+}
+.input_field{
+  padding: 10px;
+  width: 320px;
+  border-color:gainsboro;
+  border-radius: 5px;
+  margin-top:5px;
+  margin-bottom: 5px;
+}
+.text_field{
+  padding: 10px;
+  width: 52.2vw;
+  height:150px;
+  border-color:gainsboro;
+  border-radius: 5px;
+}
+.contact_submit_button{
+  border: none;
+  border-radius: 5px;
+  background-color:rgb(23, 199, 243);
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  width:150px;
+}
+.contact_submit_button:hover{
+  box-shadow: 5px 5px 5px -1px rgb(155, 242, 155);
+  background-color: rgb(19, 201, 19);
+  color: white;
+}
+/*404 error page not found style*/
+#notfound{
+  position:relative;
+  height:100vh;
+}
+#notfound .notfound{
+  position:absolute;
+  left:50%;
+  top:50%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform:translate(-50%,-50%)
+}
+.notfound{
+  max-width:920px;
+  width:100%;
+  line-height:1.4;
+  padding-left: 15px;
+  text-align: center;
+  padding-right: 15px;
+}
+.notfound .notfound-404{
+  position:absolute;
+  height:100px;
+  top:0;
+  left:50%;
+  -webkit-transform:translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform:translateX(-50%);
+  z-index: -1;
+}
+.notfound .notfound-404 h1{
+  font-family:sans-serif;
+  color:#ececec;
+  font-weight: 900;
+  font-size:276px;
+  margin:0px;
+  position:absolute;
+  left:50%;
+  top:50%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+
+}
+.notfound h2{
+  font-family: sans-serif;
+  font-size:46px;
+  color:#000;
+  font-weight:900;
+  text-transform: uppercase;
+  margin:0px;
+}
+.notfound p{
+  font-family: sans-serif;
+  font-size:16px;
+  color:#000;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-top: 15px;
+
+}
+.notfound a{
+  font-family:"sans-serif";
+  font-size:14px;
+  text-decoration:none;
+  text-transform:uppercase;
+  background-color: #189cf0;
+  display:inline-block;
+  padding:16px 38px;
+  border:2px solid transparent;
+  border-radius: 40px;
+  color:#fff;
+  font-weight: 400;
+  -webkit-transition: 0.2s all;
+}
+.notfound a:hover{
+  background-color: #fff;
+  border-color: #189cf0;
+  color:#189cf0;
+
+}
+@media only screen and (max-width:480px){
+  .notfound .notfound-404 h1{
+    font-size: 162px;
+  }
+  .notfound h2{
+    font-size:26px;
+  }
+}
