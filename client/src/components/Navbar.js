@@ -98,7 +98,7 @@ export default function Navbar() {
       <nav className="navbar navbar-expand-lg bg-light text-dark  p-3 ">
         <div className="container-fluid">
           <NavLink className="navbar-brand fw-bold" to="/">
-            Mandal Technical
+            SecureSign
           </NavLink>
           <button
             className="navbar-toggler"
